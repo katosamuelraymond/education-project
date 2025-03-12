@@ -13,11 +13,12 @@ define ('APPDESC','free and paid courses ');
         define ('DBUSER','root');
         define ('DBPASS','');
         define ('DBDRIVER','mysql');
-
+        define('ROOT','http://localhost/education project/public');
     }else{
         define ('DBHOST','localhost');
         define ('DBNAME','incredible education');
         define ('DBUSER','root');
         define ('DBPASS','');
         define ('DBDRIVER','mysql');
+        define('ROOT','http://');
     }

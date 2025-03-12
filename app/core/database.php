@@ -9,14 +9,15 @@ class Database {
 
     public function query($query, $data = [], $type = 'object') { 
         $conn = $this->connect();
+        
         $stmt = $conn->prepare($query);
 
         if ($stmt) {
             $check = $stmt->execute($data);
             if ($check) {
-                // Debugging Fix: Correct type check
+               
                 if ($type == 'object') {
-                    $type = PDO::FETCH_OBJ; // Corrected condition
+                    $type = PDO::FETCH_OBJ; 
                 } else {
                     $type = PDO::FETCH_ASSOC;
                 }
