@@ -2,7 +2,7 @@
 <?php  $this->view('includes/header',$data) ?>
 
 
-<body class="index-page">
+<body class=index"-page">
 
 
 
@@ -41,7 +41,7 @@
                         <div class="swiper-slide"
                             style="background-image: url('<?=ROOT?>/zenblog/assets/img/post-slide-1.jpg');">
                             <div class="content">
-                                <h2><a href="single-post.html">The Best Homemade Masks for Face (keep the Pimples
+                                <h2><a href="single-post">The Best Homemade Masks for Face (keep the Pimples
                                         Away)</a></h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia!
                                     Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque
@@ -52,7 +52,7 @@
                         <div class="swiper-slide"
                             style="background-image: url('<?=ROOT?>/zenblog/assets/img/post-slide-2.jpg');">
                             <div class="content">
-                                <h2><a href="single-post.html">17 Pictures of Medium Length Hair in Layers That Will
+                                <h2><a href="single-post">17 Pictures of Medium Length Hair in Layers That Will
                                         Inspire Your New Haircut</a></h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia!
                                     Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque
@@ -63,7 +63,7 @@
                         <div class="swiper-slide"
                             style="background-image: url('<?=ROOT?>/zenblog/assets/img/post-slide-3.jpg');">
                             <div class="content">
-                                <h2><a href="single-post.html">13 Amazing Poems from Shel Silverstein with Valuable Life
+                                <h2><a href="single-post">13 Amazing Poems from Shel Silverstein with Valuable Life
                                         Lessons</a></h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia!
                                     Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque
@@ -74,7 +74,7 @@
                         <div class="swiper-slide"
                             style="background-image: url('<?=ROOT?>/zenblog/assets/img/post-slide-4.jpg');">
                             <div class="content">
-                                <h2><a href="single-post.html">9 Half-up/half-down Hairstyles for Long and Medium
+                                <h2><a href="single-post">9 Half-up/half-down Hairstyles for Long and Medium
                                         Hair</a></h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia!
                                     Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque
@@ -103,12 +103,12 @@
                         <div class="col-lg-4">
 
                             <div class="post-entry lg">
-                                <a href="blog-details.html"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-1.jpg"
+                                <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-1.jpg"
                                         alt="" class="img-fluid"></a>
                                 <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                     <span>Jul 5th '22</span>
                                 </div>
-                                <h2><a href="blog-details.html">11 Work From Home Part-Time Jobs You Can Do Now</a></h2>
+                                <h2><a href="blog-details">11 Work From Home Part-Time Jobs You Can Do Now</a></h2>
                                 <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
                                     temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem?
                                     Nihil tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut
@@ -131,58 +131,58 @@
                             <div class="row g-5">
                                 <div class="col-lg-4 border-start custom-border">
                                     <div class="post-entry">
-                                        <a href="blog-details.html"><img
+                                        <a href="blog-details"><img
                                                 src="<?=ROOT?>/zenblog/assets/img/post-landscape-2.jpg" alt=""
                                                 class="img-fluid"></a>
                                         <div class="post-meta"><span class="date">Sport</span> <span
                                                 class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                        <h2><a href="blog-details.html">Let’s Get Back to Work, New York</a></h2>
+                                        <h2><a href="blog-details">Let’s Get Back to Work, New York</a></h2>
                                     </div>
                                     <div class="post-entry">
-                                        <a href="blog-details.html"><img
+                                        <a href="blog-details"><img
                                                 src="<?=ROOT?>/zenblog/assets/img/post-landscape-5.jpg" alt=""
                                                 class="img-fluid"></a>
                                         <div class="post-meta"><span class="date">Food</span> <span
                                                 class="mx-1">•</span> <span>Jul 17th '22</span></div>
-                                        <h2><a href="blog-details.html">How to Avoid Distraction and Stay Focused During
+                                        <h2><a href="blog-details">How to Avoid Distraction and Stay Focused During
                                                 Video Calls?</a></h2>
                                     </div>
                                     <div class="post-entry">
-                                        <a href="blog-details.html"><img
+                                        <a href="blog-details"><img
                                                 src="<?=ROOT?>/zenblog/assets/img/post-landscape-7.jpg" alt=""
                                                 class="img-fluid"></a>
                                         <div class="post-meta"><span class="date">Design</span> <span
                                                 class="mx-1">•</span> <span>Mar 15th '22</span></div>
-                                        <h2><a href="blog-details.html">Why Craigslist Tampa Is One of The Most
+                                        <h2><a href="blog-details">Why Craigslist Tampa Is One of The Most
                                                 Interesting Places On the Web?</a></h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 border-start custom-border">
                                     <div class="post-entry">
-                                        <a href="blog-details.html"><img
+                                        <a href="blog-details"><img
                                                 src="<?=ROOT?>/zenblog/assets/img/post-landscape-3.jpg" alt=""
                                                 class="img-fluid"></a>
                                         <div class="post-meta"><span class="date">Business</span> <span
                                                 class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                        <h2><a href="blog-details.html">6 Easy Steps To Create Your Own Cute Merch For
+                                        <h2><a href="blog-details">6 Easy Steps To Create Your Own Cute Merch For
                                                 Instagram</a></h2>
                                     </div>
                                     <div class="post-entry">
-                                        <a href="blog-details.html"><img
+                                        <a href="blog-details"><img
                                                 src="<?=ROOT?>/zenblog/assets/img/post-landscape-6.jpg" alt=""
                                                 class="img-fluid"></a>
                                         <div class="post-meta"><span class="date">Tech</span> <span
                                                 class="mx-1">•</span> <span>Mar 1st '22</span></div>
-                                        <h2><a href="blog-details.html">10 Life-Changing Hacks Every Working Mom Should
+                                        <h2><a href="blog-details">10 Life-Changing Hacks Every Working Mom Should
                                                 Know</a></h2>
                                     </div>
                                     <div class="post-entry">
-                                        <a href="blog-details.html"><img
+                                        <a href="blog-details"><img
                                                 src="<?=ROOT?>/zenblog/assets/img/post-landscape-8.jpg" alt=""
                                                 class="img-fluid"></a>
                                         <div class="post-meta"><span class="date">Travel</span> <span
                                                 class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                        <h2><a href="blog-details.html">5 Great Startup Tips for Female Founders</a>
+                                        <h2><a href="blog-details">5 Great Startup Tips for Female Founders</a>
                                         </h2>
                                     </div>
                                 </div>
@@ -194,14 +194,14 @@
                                         <h3>Trending</h3>
                                         <ul class="trending-post">
                                             <li>
-                                                <a href="blog-details.html">
+                                                <a href="blog-details">
                                                     <span class="number">1</span>
                                                     <h3>The Best Homemade Masks for Face (keep the Pimples Away)</h3>
                                                     <span class="author">Jane Cooper</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="blog-details.html">
+                                                <a href="blog-details">
                                                     <span class="number">2</span>
                                                     <h3>17 Pictures of Medium Length Hair in Layers That Will Inspire
                                                         Your New Haircut</h3>
@@ -209,7 +209,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="blog-details.html">
+                                                <a href="blog-details">
                                                     <span class="number">3</span>
                                                     <h3>13 Amazing Poems from Shel Silverstein with Valuable Life
                                                         Lessons</h3>
@@ -217,14 +217,14 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="blog-details.html">
+                                                <a href="blog-details">
                                                     <span class="number">4</span>
                                                     <h3>9 Half-up/half-down Hairstyles for Long and Medium Hair</h3>
                                                     <span class="author">Cameron Williamson</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="blog-details.html">
+                                                <a href="blog-details">
                                                     <span class="number">5</span>
                                                     <h3>Life Insurance And Pregnancy: A Working Mom’s Guide</h3>
                                                     <span class="author">Jenny Wilson</span>
@@ -251,7 +251,7 @@
             <div class="container section-title" data-aos="fade-up">
                 <div class="section-title-container d-flex align-items-center justify-content-between">
                     <h2>Culture</h2>
-                    <p><a href="categories.html">See All Culture</a></p>
+                    <p><a href="categories">See All Culture</a></p>
                 </div>
             </div><!-- End Section Title -->
 
@@ -261,14 +261,14 @@
                     <div class="col-md-9">
 
                         <div class="d-lg-flex post-entry">
-                            <a href="blog-details.html" class="me-4 thumbnail mb-4 mb-lg-0 d-inline-block">
+                            <a href="blog-details" class="me-4 thumbnail mb-4 mb-lg-0 d-inline-block">
                                 <img src="<?=ROOT?>/zenblog/assets/img/post-landscape-6.jpg" alt="" class="img-fluid">
                             </a>
                             <div>
                                 <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                     <span>Jul 5th '22</span>
                                 </div>
-                                <h3><a href="blog-details.html">What is the son of Football Coach John Gruden, Deuce
+                                <h3><a href="blog-details">What is the son of Football Coach John Gruden, Deuce
                                         Gruden doing Now?</a></h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat
                                     exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
@@ -288,13 +288,12 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="post-list border-bottom">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-1.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-1.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                         <span>Jul 5th '22</span>
                                     </div>
-                                    <h2 class="mb-2"><a href="blog-details.html">11 Work From Home Part-Time Jobs You
+                                    <h2 class="mb-2"><a href="blog-details">11 Work From Home Part-Time Jobs You
                                             Can Do Now</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                     <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -305,20 +304,19 @@
                                     <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                         <span>Jul 5th '22</span>
                                     </div>
-                                    <h2 class="mb-2"><a href="blog-details.html">5 Great Startup Tips for Female
+                                    <h2 class="mb-2"><a href="blog-details">5 Great Startup Tips for Female
                                             Founders</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-2.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-2.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                         <span>Jul 5th '22</span>
                                     </div>
-                                    <h2 class="mb-2"><a href="blog-details.html">How to Avoid Distraction and Stay
+                                    <h2 class="mb-2"><a href="blog-details">How to Avoid Distraction and Stay
                                             Focused During Video Calls?</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                     <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -333,7 +331,7 @@
                             <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">How to Avoid Distraction and Stay Focused
+                            <h2 class="mb-2"><a href="blog-details">How to Avoid Distraction and Stay Focused
                                     During Video Calls?</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -342,7 +340,7 @@
                             <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">17 Pictures of Medium Length Hair in Layers
+                            <h2 class="mb-2"><a href="blog-details">17 Pictures of Medium Length Hair in Layers
                                     That Will Inspire Your New Haircut</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -351,7 +349,7 @@
                             <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">9 Half-up/half-down Hairstyles for Long and
+                            <h2 class="mb-2"><a href="blog-details">9 Half-up/half-down Hairstyles for Long and
                                     Medium Hair</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -360,7 +358,7 @@
                             <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">Life Insurance And Pregnancy: A Working Mom’s
+                            <h2 class="mb-2"><a href="blog-details">Life Insurance And Pregnancy: A Working Mom’s
                                     Guide</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -369,7 +367,7 @@
                             <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">The Best Homemade Masks for Face (keep the
+                            <h2 class="mb-2"><a href="blog-details">The Best Homemade Masks for Face (keep the
                                     Pimples Away)</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -378,7 +376,7 @@
                             <div class="post-meta"><span class="date">Culture</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">10 Life-Changing Hacks Every Working Mom Should
+                            <h2 class="mb-2"><a href="blog-details">10 Life-Changing Hacks Every Working Mom Should
                                     Know</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -396,7 +394,7 @@
             <div class="container section-title" data-aos="fade-up">
                 <div class="section-title-container d-flex align-items-center justify-content-between">
                     <h2>Business</h2>
-                    <p><a href="categories.html">See All Business</a></p>
+                    <p><a href="categories">See All Business</a></p>
                 </div>
             </div><!-- End Section Title -->
 
@@ -406,14 +404,14 @@
                     <div class="col-md-9 order-md-2">
 
                         <div class="d-lg-flex post-entry">
-                            <a href="blog-details.html" class="me-4 thumbnail d-inline-block mb-4 mb-lg-0">
+                            <a href="blog-details" class="me-4 thumbnail d-inline-block mb-4 mb-lg-0">
                                 <img src="<?=ROOT?>/zenblog/assets/img/post-landscape-3.jpg" alt="" class="img-fluid">
                             </a>
                             <div>
                                 <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                     <span>Jul 5th '22</span>
                                 </div>
-                                <h3><a href="blog-details.html">What is the son of Football Coach John Gruden, Deuce
+                                <h3><a href="blog-details">What is the son of Football Coach John Gruden, Deuce
                                         Gruden doing Now?</a></h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat
                                     exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
@@ -433,12 +431,11 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="post-list border-bottom">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-5.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-5.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Business</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">11 Work From Home Part-Time Jobs You
+                                    <h2 class="mb-2"><a href="blog-details">11 Work From Home Part-Time Jobs You
                                             Can Do Now</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                     <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -448,19 +445,18 @@
                                 <div class="post-list">
                                     <div class="post-meta"><span class="date">Business</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">5 Great Startup Tips for Female
+                                    <h2 class="mb-2"><a href="blog-details">5 Great Startup Tips for Female
                                             Founders</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-7.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-7.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Business</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">How to Avoid Distraction and Stay
+                                    <h2 class="mb-2"><a href="blog-details">How to Avoid Distraction and Stay
                                             Focused During Video Calls?</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                     <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -474,7 +470,7 @@
                             <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">How to Avoid Distraction and Stay Focused
+                            <h2 class="mb-2"><a href="blog-details">How to Avoid Distraction and Stay Focused
                                     During Video Calls?</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -483,7 +479,7 @@
                             <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">17 Pictures of Medium Length Hair in Layers
+                            <h2 class="mb-2"><a href="blog-details">17 Pictures of Medium Length Hair in Layers
                                     That Will Inspire Your New Haircut</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -492,7 +488,7 @@
                             <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">9 Half-up/half-down Hairstyles for Long and
+                            <h2 class="mb-2"><a href="blog-details">9 Half-up/half-down Hairstyles for Long and
                                     Medium Hair</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -501,7 +497,7 @@
                             <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">Life Insurance And Pregnancy: A Working Mom’s
+                            <h2 class="mb-2"><a href="blog-details">Life Insurance And Pregnancy: A Working Mom’s
                                     Guide</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -510,7 +506,7 @@
                             <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">The Best Homemade Masks for Face (keep the
+                            <h2 class="mb-2"><a href="blog-details">The Best Homemade Masks for Face (keep the
                                     Pimples Away)</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -519,7 +515,7 @@
                             <div class="post-meta"><span class="date">Business</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">10 Life-Changing Hacks Every Working Mom Should
+                            <h2 class="mb-2"><a href="blog-details">10 Life-Changing Hacks Every Working Mom Should
                                     Know</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -537,7 +533,7 @@
             <div class="container section-title" data-aos="fade-up">
                 <div class="section-title-container d-flex align-items-center justify-content-between">
                     <h2>Lifestyle</h2>
-                    <p><a href="categories.html">See All Lifestyle</a></p>
+                    <p><a href="categories">See All Lifestyle</a></p>
                 </div>
             </div><!-- End Section Title -->
 
@@ -546,12 +542,12 @@
                 <div class="row g-5">
                     <div class="col-lg-4">
                         <div class="post-list lg">
-                            <a href="blog-details.html"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-8.jpg"
-                                    alt="" class="img-fluid"></a>
+                            <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-8.jpg" alt=""
+                                    class="img-fluid"></a>
                             <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2><a href="blog-details.html">11 Work From Home Part-Time Jobs You Can Do Now</a></h2>
+                            <h2><a href="blog-details">11 Work From Home Part-Time Jobs You Can Do Now</a></h2>
                             <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
                                 temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem? Nihil
                                 tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut saepe
@@ -571,7 +567,7 @@
                             <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">The Best Homemade Masks for Face (keep the
+                            <h2 class="mb-2"><a href="blog-details">The Best Homemade Masks for Face (keep the
                                     Pimples Away)</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -580,7 +576,7 @@
                             <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">•</span>
                                 <span>Jul 5th '22</span>
                             </div>
-                            <h2 class="mb-2"><a href="blog-details.html">10 Life-Changing Hacks Every Working Mom Should
+                            <h2 class="mb-2"><a href="blog-details">10 Life-Changing Hacks Every Working Mom Should
                                     Know</a></h2>
                             <span class="author mb-3 d-block">Jenny Wilson</span>
                         </div>
@@ -591,58 +587,52 @@
                         <div class="row g-5">
                             <div class="col-lg-4 border-start custom-border">
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-6.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-6.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2><a href="blog-details.html">Let’s Get Back to Work, New York</a></h2>
+                                    <h2><a href="blog-details">Let’s Get Back to Work, New York</a></h2>
                                 </div>
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-5.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-5.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 17th '22</span></div>
-                                    <h2><a href="blog-details.html">How to Avoid Distraction and Stay Focused During
+                                    <h2><a href="blog-details">How to Avoid Distraction and Stay Focused During
                                             Video Calls?</a></h2>
                                 </div>
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-4.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-4.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Mar 15th '22</span></div>
-                                    <h2><a href="blog-details.html">Why Craigslist Tampa Is One of The Most Interesting
+                                    <h2><a href="blog-details">Why Craigslist Tampa Is One of The Most Interesting
                                             Places On the Web?</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-4 border-start custom-border">
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-3.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-3.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2><a href="blog-details.html">6 Easy Steps To Create Your Own Cute Merch For
+                                    <h2><a href="blog-details">6 Easy Steps To Create Your Own Cute Merch For
                                             Instagram</a></h2>
                                 </div>
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-2.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-2.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Mar 1st '22</span></div>
-                                    <h2><a href="blog-details.html">10 Life-Changing Hacks Every Working Mom Should
+                                    <h2><a href="blog-details">10 Life-Changing Hacks Every Working Mom Should
                                             Know</a></h2>
                                 </div>
                                 <div class="post-list">
-                                    <a href="blog-details.html"><img
-                                            src="<?=ROOT?>/zenblog/assets/img/post-landscape-1.jpg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-details"><img src="<?=ROOT?>/zenblog/assets/img/post-landscape-1.jpg"
+                                            alt="" class="img-fluid"></a>
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2><a href="blog-details.html">5 Great Startup Tips for Female Founders</a></h2>
+                                    <h2><a href="blog-details">5 Great Startup Tips for Female Founders</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -650,7 +640,7 @@
                                 <div class="post-list border-bottom">
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">How to Avoid Distraction and Stay
+                                    <h2 class="mb-2"><a href="blog-details">How to Avoid Distraction and Stay
                                             Focused During Video Calls?</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
@@ -658,7 +648,7 @@
                                 <div class="post-list border-bottom">
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">17 Pictures of Medium Length Hair in
+                                    <h2 class="mb-2"><a href="blog-details">17 Pictures of Medium Length Hair in
                                             Layers That Will Inspire Your New Haircut</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
@@ -666,7 +656,7 @@
                                 <div class="post-list border-bottom">
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">9 Half-up/half-down Hairstyles for Long
+                                    <h2 class="mb-2"><a href="blog-details">9 Half-up/half-down Hairstyles for Long
                                             and Medium Hair</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
@@ -674,7 +664,7 @@
                                 <div class="post-list border-bottom">
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">Life Insurance And Pregnancy: A Working
+                                    <h2 class="mb-2"><a href="blog-details">Life Insurance And Pregnancy: A Working
                                             Mom’s Guide</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
@@ -682,7 +672,7 @@
                                 <div class="post-list border-bottom">
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">The Best Homemade Masks for Face (keep
+                                    <h2 class="mb-2"><a href="blog-details">The Best Homemade Masks for Face (keep
                                             the Pimples Away)</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
@@ -690,7 +680,7 @@
                                 <div class="post-list border-bottom">
                                     <div class="post-meta"><span class="date">Lifestyle</span> <span
                                             class="mx-1">•</span> <span>Jul 5th '22</span></div>
-                                    <h2 class="mb-2"><a href="blog-details.html">10 Life-Changing Hacks Every Working
+                                    <h2 class="mb-2"><a href="blog-details">10 Life-Changing Hacks Every Working
                                             Mom Should Know</a></h2>
                                     <span class="author mb-3 d-block">Jenny Wilson</span>
                                 </div>
