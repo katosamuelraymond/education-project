@@ -1,8 +1,8 @@
-<?php  $this->view('includes/head',$data) ?>
-<?php  $this->view('includes/header',$data) ?>
+<?php  $this->view('includes/head',$data); ?>
+<?php  $this->view('includes/header',$data); ?>
 
 
-<body class=index"-page">
+<body class="index-page">
 
 
 
