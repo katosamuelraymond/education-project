@@ -1,3 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+       
+        <a class="navbar-brand" href="<?=ROOT?>">
+        <img src="<?=ROOT?>/NiceAdmin/assets/img/logo.png" alt="" height="40"> 
+        </a>
+
+        <div class="" id="">
+            <ul class=" ms-auto"> 
+               
+                <li class="nav-item">
+                    <a class=" btn btn-primary" href="<?=ROOT?>/login">Login</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
