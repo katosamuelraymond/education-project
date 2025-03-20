@@ -1,96 +1,100 @@
-<footer id="footer" class="footer dark-background">
-
-    <div class="container footer-top">
+<footer id="footer" class="footer dark-background text-light pt-5 pb-4">
+    <div class="container">
         <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 footer-about">
-                <a href="<?=ROOT?>" class="logo d-flex align-items-center">
-                    <span class="sitename">ZenBlog</span>
+            <!-- About Section -->
+            <div class="col-lg-3 col-md-6">
+                <a href="<?=ROOT?>" class="logo d-flex align-items-center text-decoration-none">
+                    <h3 class="sitename text-white fw-bold fs-4"><?=APPNAME?></h3>
                 </a>
-                <div class="footer-contact pt-3">
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                <p class="mt-3 fs-5">Your trusted platform for A-Level, O-Level, and Campus courses in Uganda. Learn from anywhere, anytime.</p>
+                <div class="footer-contact mt-3 fs-5">
+                    <p><i class="bi bi-geo-alt"></i> Plot 24, Kampala Road, Kampala, Uganda</p>
+                    <p><i class="bi bi-telephone"></i> +256 701 234 567</p>
+                    <p><i class="bi bi-envelope"></i> support@<?= strtolower(APPNAME) ?>.ug</p>
                 </div>
-                <div class="social-links d-flex mt-4">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+                <div class="social-links mt-3 d-flex">
+                    <a href="#" class="me-2 fs-4"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="me-2 fs-4"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="me-2 fs-4"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="me-2 fs-4"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Terms of service</a></li>
-                    <li><a href="#">Privacy policy</a></li>
+            <!-- Course Categories -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="fs-4">Explore Courses</h4>
+                <ul class="list-unstyled fs-5">
+                    <li><a href="#">A-Level Courses</a></li>
+                    <li><a href="#">O-Level Courses</a></li>
+                    <li><a href="#">Campus Courses</a></li>
+                    <li><a href="#">Programming</a></li>
+                    <li><a href="#">Business & Marketing</a></li>
                 </ul>
             </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Product Management</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Graphic Design</a></li>
+            <!-- Student Section -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="fs-4">For Students</h4>
+                <ul class="list-unstyled fs-5">
+                    <li><a href="#">Student Dashboard</a></li>
+                    <li><a href="#">My Courses</a></li>
+                    <li><a href="#">Certificates</a></li>
+                    <li><a href="#">Reviews & Ratings</a></li>
+                    <li><a href="#">Community</a></li>
                 </ul>
             </div>
 
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Hic solutasetp</h4>
-                <ul>
-                    <li><a href="#">Molestiae accusamus iure</a></li>
-                    <li><a href="#">Excepturi dignissimos</a></li>
-                    <li><a href="#">Suscipit distinctio</a></li>
-                    <li><a href="#">Dilecta</a></li>
-                    <li><a href="#">Sit quas consectetur</a></li>
+            <!-- Instructor Section -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="fs-4">For Instructors</h4>
+                <ul class="list-unstyled fs-5">
+                    <li><a href="#">Become an Instructor</a></li>
+                    <li><a href="#">Instructor Dashboard</a></li>
+                    <li><a href="#">Course Creation</a></li>
+                    <li><a href="#">Instructor Resources</a></li>
+                    <li><a href="#">Instructor Support</a></li>
                 </ul>
             </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Nobis illum</h4>
-                <ul>
-                    <li><a href="#">Ipsam</a></li>
-                    <li><a href="#">Laudantium dolorum</a></li>
-                    <li><a href="#">Dinera</a></li>
-                    <li><a href="#">Trodelas</a></li>
-                    <li><a href="#">Flexo</a></li>
-                </ul>
-            </div>
-
         </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">ZenBlog</strong> <span>All Rights Reserved</span>
-        </p>
+    <!-- Full-Width Separator Line -->
+    <div class="full-width-line"></div>
 
+    <!-- Copyright Section -->
+    <div class="text-center py-3 fs-5 copyright-bg">
+        <p class="mb-0">© <?= date('Y') ?> <strong class="sitename"><?=APPNAME?></strong>. All Rights Reserved.</p>
     </div>
 
+    <!-- Scroll to Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="<?=ROOT?>/zenblog/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?=ROOT?>/zenblog/assets/vendor/php-email-form/validate.js"></script>
+    <script src="<?=ROOT?>/zenblog/assets/vendor/aos/aos.js"></script>
+    <script src="<?=ROOT?>/zenblog/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="<?=ROOT?>/zenblog/assets/js/main.js"></script>
+
+    <style>
+        /* Full-width separator line */
+        .full-width-line {
+            width: 100%;
+            height: 2px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin-top: 20px;
+        }
+
+        /* Copyright Section Background */
+        .copyright-bg {
+            background-color: rgba(0, 0, 0, 0.85);
+        }
+    </style>
 </footer>
-
-<!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-<!-- Preloader -->
-<div id="preloader"></div>
-
-<!-- Vendor JS Files -->
-<script src="<?=ROOT?>/zenblog/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?=ROOT?>/zenblog/assets/vendor/php-email-form/validate.js"></script>
-<script src="<?=ROOT?>/zenblog/assets/vendor/aos/aos.js"></script>
-<script src="<?=ROOT?>/zenblog/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-<!-- Main JS File -->
-<script src="<?=ROOT?>/zenblog/assets/js/main.js"></script>
-
-</body>
-
-</html>
