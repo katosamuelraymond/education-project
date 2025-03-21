@@ -6,9 +6,9 @@
 
 
 
-    <main class="main">
+<main class="main">
 
-    <section id="slider" class="slider section dark-background">
+<section id="slider" class="slider section dark-background">
 
 <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -85,22 +85,15 @@
 
 </section>
 
+<section id="courses-category" class="courses-category section">
 
-      
 
-       
-
-      
-
-        <section id="courses-category" class="courses-category section">
-
-<!-- Section Title -->
 <div class="container section-title" data-aos="fade-up">
     <div class="section-title-container d-flex align-items-center justify-content-between">
         <h2>O & A Level Courses</h2>
         <p><a href="courses">See All Courses</a></p>
     </div>
-</div><!-- End Section Title -->
+</div>
 
 <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -176,11 +169,6 @@
 </div>
 
 </section>
-        
+</main>
 
-
-
-
-    </main>
-
-    <?php $this->view('includes/footer',$data) ?>
+<?php $this->view('includes/footer',$data) ?>
