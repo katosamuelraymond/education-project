@@ -1,24 +1,32 @@
 <?php
-// echo "<pre>";
-// print_r ($_SERVER);
-// echo "</pre>";
+// Prevent redefining constants
+if (!defined('APPNAME')) {
+    define('APPNAME', 'Incredible Education');
+}
+if (!defined('APPDESC')) {
+    define('APPDESC', 'Free and paid courses');
+}
 
-define ('APPNAME','incredible education');
-define ('APPDESC','free and paid courses ');
+if (!defined('DBHOST')) {
+    define('DBHOST', 'localhost');
+}
+if (!defined('DBNAME')) {
+    define('DBNAME', 'incredible education');
+}
+if (!defined('DBUSER')) {
+    define('DBUSER', 'root');
+}
+if (!defined('DBPASS')) {
+    define('DBPASS', '');
+}
+if (!defined('DBDRIVER')) {
+    define('DBDRIVER', 'mysql');
+}
 
-
-    if($_SERVER['SERVER_NAME'] == 'localhost'){
-        define ('DBHOST','localhost');
-        define ('DBNAME','incredible education');
-        define ('DBUSER','root');
-        define ('DBPASS','');
-        define ('DBDRIVER','mysql');
-        define('ROOT','http://localhost/education project/public');
-    }else{
-        define ('DBHOST','localhost');
-        define ('DBNAME','incredible education');
-        define ('DBUSER','root');
-        define ('DBPASS','');
-        define ('DBDRIVER','mysql');
-        define('ROOT','http://');
+if (!defined('ROOT')) {
+    if ($_SERVER['SERVER_NAME'] == 'localhost') {
+        define('ROOT', 'http://localhost/education project/public');
+    } else {
+        define('ROOT', 'http://yourwebsite.com');
     }
+}

@@ -28,16 +28,9 @@
     <link href="<?=ROOT?>/NiceAdmin/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="<?=ROOT?>/NiceAdmin/assets/vendor/simple-datatables/style.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
+  
     <link href="<?=ROOT?>/NiceAdmin/assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Updated: Apr 20 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -115,12 +108,12 @@
             </section>
 
         </div>
-    </main><!-- End #main -->
+    </main><
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Vendor JS Files -->
+    
     <script src="<?=ROOT?>/NiceAdmin/assets/vendor/apexcharts/apexcharts.min.js"></script>
     <script src="<?=ROOT?>/NiceAdmin/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?=ROOT?>/NiceAdmin/assets/vendor/chart.js/chart.umd.js"></script>
@@ -130,7 +123,7 @@
     <script src="<?=ROOT?>/NiceAdmin/assets/vendor/tinymce/tinymce.min.js"></script>
     <script src="<?=ROOT?>/NiceAdmin/assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
+ 
     <script src="<?=ROOT?>/NiceAdmin/assets/js/main.js"></script>
 
 </body>
