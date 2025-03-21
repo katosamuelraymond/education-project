@@ -2,7 +2,7 @@
     <ul>
         <li><a href="<?=ROOT?>" class="active">Home</a></li>
         <li><a href="about">About</a></li>
-        <li><a href="single-post">Single Post</a></li>
+        <li><a href="<?= ROOT ?>/trainers">trainers</a></li>
         <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
                 <li><a href="category">Category 1</a></li>
@@ -23,7 +23,7 @@
             </ul>
                 </li>
                 <li><a href="<?= ROOT ?>/resources">Resources</a></li>
-                <li><a href="<?= ROOT ?>/blog">Blog</a></li>
+                <li><a href="<?= ROOT ?>/blog">blog</a></li>
                 <li><a href="<?= ROOT ?>/forum">Forum</a></li>
             </ul>
         </li>

@@ -48,7 +48,8 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="fs-4">For Instructors</h4>
                 <ul class="list-unstyled fs-5">
-                    <li><a href="#">Become an Instructor</a></li>
+                    <li><a href="<?= ROOT ?>/trainers/apply" >Become a Trainer</a>
+                    </li>
                     <li><a href="#">Instructor Dashboard</a></li>
                     <li><a href="#">Course Creation</a></li>
                     <li><a href="#">Instructor Resources</a></li>

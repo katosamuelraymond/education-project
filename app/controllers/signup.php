@@ -4,7 +4,7 @@ class Signup extends Controller
 {
     public function index() {
 
-        show($_POST);
+        // show($_POST);
        
         $data['title'] ="signup";
         $this->view('signup', $data);
