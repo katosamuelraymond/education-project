@@ -14,7 +14,7 @@
 
                 <div class="d-flex justify-content-center py-4">
                     <a href="<?=ROOT?>" class="logo d-flex align-items-center w-auto">
-                        <!-- Reduced image size -->
+                       
                         <img src="<?=ROOT?>/assets/img/logo.png" alt="" style="width: 50px; height: 50px;">
                         <span class="d-none d-lg-block"><?=APPNAME?></span>
                     </a>

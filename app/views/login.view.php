@@ -15,13 +15,13 @@
 
                             <div class="d-flex justify-content-center py-4">
                                 <a href="<?=ROOT?>" class="logo d-flex align-items-center w-auto">
-                                    <img src="<?=ROOT?>/NiceAdmin/assets/img/logo.png" alt="">
+                                    <img src="<?=ROOT?>/assets/img/logo.png" alt="">
                                     <span class="d-none d-lg-block"><?=APPNAME?></span>
 
                                 </a>
                             </div>
 
-                            <div class="card mb-3">
+                            <div class="card mb-3 shadow-lg">
 
                                 <div class="card-body">
 
