@@ -76,13 +76,12 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="<?=ROOT?>/zenblog/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?=ROOT?>/zenblog/assets/vendor/php-email-form/validate.js"></script>
-    <script src="<?=ROOT?>/zenblog/assets/vendor/aos/aos.js"></script>
-    <script src="<?=ROOT?>/zenblog/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="<?=ROOT?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="<?=ROOT?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="<?=ROOT?>/zenblog/assets/js/main.js"></script>
+    <script src="<?=ROOT?>/assets/js/main.js"></script>
 
     <style>
         /* Full-width separator line */

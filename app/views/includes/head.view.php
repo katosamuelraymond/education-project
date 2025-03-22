@@ -9,8 +9,8 @@
     <meta name="keywords" content="">
 
    
-    <link href="<?=ROOT?>/zenblog/assets/img/favicon.png" rel="icon">
-    <link href="<?=ROOT?>/zenblog/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="<?=ROOT?>/assets/img/favicon.png" rel="icon">
+    <link href="<?=ROOT?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
    
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -20,13 +20,13 @@
         rel="stylesheet">
 
   
-    <link href="<?=ROOT?>/zenblog/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=ROOT?>/zenblog/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="<?=ROOT?>/zenblog/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="<?=ROOT?>/zenblog/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="<?=ROOT?>/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=ROOT?>/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+   
+    <link href="<?=ROOT?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   
-    <link href="<?=ROOT?>/zenblog/assets/css/main.css" rel="stylesheet">
+    <link href="<?=ROOT?>/assets/main.css" rel="stylesheet">
      
 
 
