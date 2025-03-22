@@ -26,7 +26,7 @@
     <link href="<?=ROOT?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   
-    <link href="<?=ROOT?>/assets/main.css" rel="stylesheet">
+    <link href="<?=ROOT?>/assets/css/main.css" rel="stylesheet">
      
 
 
