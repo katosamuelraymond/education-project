@@ -1,5 +1,5 @@
 
-<?php $this->view('includes/trainer', $data); ?>
+<?php $this->view('includes/head', $data); ?>
 
 
 <?php $this->view('includes/header', $data); ?>

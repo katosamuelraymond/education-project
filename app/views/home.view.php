@@ -1,4 +1,6 @@
 <?php $this->view('includes/head',$data); ?>
+<?php $this->view('includes/topnav',$data); ?>
+
 <?php   $this->view('includes/header',$data); ?>
 
 

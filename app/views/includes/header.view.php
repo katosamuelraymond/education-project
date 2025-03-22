@@ -1,28 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-       
-        <a class="navbar-brand" href="<?=ROOT?>">
-        <img src="<?=ROOT?>/NiceAdmin/assets/img/logo.png" alt="" height="40"> 
-        </a>
 
-        <div class="" id="">
-            <ul class=" ms-auto"> 
-               
-                <li class="nav-item">
-                    <a class=" btn btn-primary" href="<?=ROOT?>/login">Login</a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
         <a href="<?=ROOT?>" class="logo d-flex align-items-center me-auto me-xl-0">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="<?=ROOT?>/NiceAdmin/assets/img/logo.png" alt="">
+            <img src="<?=ROOT?>/assets/img/logo.png" alt="">
             <h1 class="sitename"><?=APPNAME?></h1>
         </a>
 
