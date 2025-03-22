@@ -14,15 +14,12 @@
             <div class="trainer-carousel" style="flex: 1; width: 50%; padding-right: 20px;">
                 <div id="trainerCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <!-- First Image -->
                         <div class="carousel-item active">
                             <img src="path_to_your_image1.jpg" class="d-block w-100" alt="Trainer Image 1">
                         </div>
-                        <!-- Second Image -->
                         <div class="carousel-item">
                             <img src="path_to_your_image2.jpg" class="d-block w-100" alt="Trainer Image 2">
                         </div>
-                        <!-- Third Image -->
                         <div class="carousel-item">
                             <img src="path_to_your_image3.jpg" class="d-block w-100" alt="Trainer Image 3">
                         </div>
@@ -39,7 +36,7 @@
             </div>
 
             <!-- Form Section (50% width) -->
-            <div class="form-section" style="flex: 1; width: 50%;">
+            <div class="form-section" style="flex: 1; width: 50%; padding-left: 20px;">
                 <form action="<?= ROOT ?>/trainers/apply" method="POST" enctype="multipart/form-data">
                     <div class="mb-3">
                         <label for="name" class="form-label">Full Name</label>

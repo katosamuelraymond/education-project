@@ -7,6 +7,9 @@ class Trainer extends Database
     public function getAllTrainers()
     {
         $query = "SELECT * FROM " . $this->table;
-        return $this->query($query);
+        return $this->query($query);  
     }
 }
+
+
+
