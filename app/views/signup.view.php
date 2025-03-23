@@ -1,5 +1,8 @@
 
-<?php $this->view('includes/head',$data); ?>
+<?php 
+$data['pageTitle'] = "Sign Up - incredible education platform";
+
+$this->view('includes/head',$data); ?>
 <?php   $this->view('includes/header',$data); ?>
 
 <body>

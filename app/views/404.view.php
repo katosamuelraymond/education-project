@@ -1,4 +1,8 @@
-<?php $this->view('includes/head', $data); ?>
+
+<?php 
+$data['pageTitle'] = "404 page ";
+
+$this->view('includes/head',$data); ?>
 <?php $this->view('includes/header', $data); ?>
 
 <body>

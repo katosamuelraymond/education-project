@@ -1,4 +1,7 @@
-<?php $this->view('includes/head',$data); ?>
+<?php $data['pageTitle'] = "incredible education platform - Learning made easy";
+$this->view('includes/head',$data);
+?> 
+
 <?php $this->view('includes/topnav',$data); ?>
 
 <?php   $this->view('includes/header',$data); ?>
@@ -41,7 +44,7 @@
 
             <!-- Slide 1: Online Learning Benefits -->
             <div class="swiper-slide"
-                style="background-image: url('<?=ROOT?>/zenblog/assets/img/learning-slide-1.jpg');">
+                style="background-image: url('<?=ROOT?>/assets/img/pexels-pixabay-355952.jpg');">
                 <div class="content">
                     <h2><a href="single-post">Unlock Your Potential with Online Learning</a></h2>
                     <p>Discover the benefits of online education. Learn at your own pace, access quality materials, and achieve academic excellence.</p>
@@ -50,7 +53,7 @@
 
             <!-- Slide 2: Best A-Level & O-Level Courses -->
             <div class="swiper-slide"
-                style="background-image: url('<?=ROOT?>/zenblog/assets/img/learning-slide-2.jpg');">
+                style="background-image: url('<?=ROOT?>/assets/img/pexels-pixabay-163064.jpg');">
                 <div class="content">
                     <h2><a href="single-post">Best A-Level & O-Level Courses in Uganda</a></h2>
                     <p>Our platform provides top-notch A-Level and O-Level courses to help students excel in national and international exams.</p>
@@ -58,17 +61,29 @@
             </div>
 
             <!-- Slide 3: Campus & Professional Skills -->
-            <div class="swiper-slide"
-                style="background-image: url('<?=ROOT?>/zenblog/assets/img/learning-slide-3.jpg');">
-                <div class="content">
-                    <h2><a href="single-post">Campus & Professional Skills Training</a></h2>
-                    <p>Get ready for the job market with campus courses in IT, Business, and more. Develop skills that employers value.</p>
-                </div>
-            </div>
+           
+            <div class="swiper-slide d-flex align-items-center position-relative" 
+    style="background-image: url('<?=ROOT?>/assets/img/pexels-emily-ranquist-493228-1205651.jpg');">
+    
+    <!-- Left Side (Your Original Content) -->
+    <div class="content">
+        <h2><a href="single-post">Campus & Professional Skills Training</a></h2>
+        <p>Get ready for the job market with campus courses in IT, Business, and more. Develop skills that employers value.</p>
+    </div>
+
+    <!-- Right Side Encouraging Words -->
+    <div class="position-absolute top-0 end-0 bg-secondary p-4 rounded shadow-lg text-center" 
+        style="max-width: 350px; margin: 20px;">
+        <h3 class="text-dark">Keep Learning, Keep Growing!</h3>
+        <p class="text-light">Education is the key to unlocking opportunities. Stay curious, stay motivated, and achieve your goals.</p>
+    </div>
+
+</div>
+
 
             <!-- Slide 4: Learn Anytime, Anywhere -->
             <div class="swiper-slide"
-                style="background-image: url('<?=ROOT?>/zenblog/assets/img/learning-slide-4.jpg');">
+                style="background-image: url('<?=ROOT?>/assets/img/learning-slide-4.jpg');">
                 <div class="content">
                     <h2><a href="single-post">Learn Anytime, Anywhere with Our Mobile-Friendly Platform</a></h2>
                     <p>Study on the go! Our mobile-friendly platform ensures you can access learning materials anytime, from anywhere.</p>
@@ -86,6 +101,52 @@
 </div>
 
 </section>
+
+
+
+<div class="container">
+
+<!-- Bootstrap 5 Accordion for Academic Content -->
+<div class="accordion" id="academicAccordion">
+
+    <!-- Course Topic 1 -->
+    <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#topic1" aria-expanded="false" aria-controls="topic1">
+                <i class="bi bi-book me-2"></i> Understanding Calculus: Fundamentals & Applications
+            </button>
+        </h2>
+        <div id="topic1" class="accordion-collapse collapse" data-bs-parent="#academicAccordion">
+            <div class="accordion-body">
+                Calculus is the study of change and motion. In this module, you'll explore **derivatives, integrals, and their real-world applications** in physics, engineering, and economics.
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Topic 2 -->
+    <div class="accordion-item mt-2" data-aos="fade-up" data-aos-delay="400">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#topic2" aria-expanded="false" aria-controls="topic2">
+                <i class="bi bi-journal-bookmark me-2"></i> Effective Study Techniques for Academic Success
+            </button>
+        </h2>
+        <div id="topic2" class="accordion-collapse collapse" data-bs-parent="#academicAccordion">
+            <div class="accordion-body">
+                Learn powerful study methods like **active recall, the Feynman technique, and spaced repetition** to retain information better and improve exam performance.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+
 
 <section id="courses-category" class="courses-category section">
 
@@ -169,6 +230,8 @@
     </div>
 
 </div>
+
+
 
 </section>
 </main>

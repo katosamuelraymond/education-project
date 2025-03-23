@@ -1,6 +1,7 @@
  <nav id="navmenu" class="navmenu">
     <ul>
         <li><a href="<?=ROOT?>" class="active">Home</a></li>
+       
         <li><a href="about">About</a></li>
         <li><a href="<?= ROOT ?>/trainers">trainers</a></li>
         <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -20,6 +21,9 @@
                         <li><a href="<?= ROOT ?>/category/languages">Languages</a></li>
                     </ul>
                 </li>
+               
+            </ul>
+          </li>
             </ul>
                 </li>
                 <li><a href="<?= ROOT ?>/resources">Resources</a></li>

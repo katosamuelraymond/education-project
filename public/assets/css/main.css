@@ -37,14 +37,12 @@
     --contrast-color: #ffffff;
   }
   
-  /* Smooth scroll */
+
   :root {
     scroll-behavior: smooth;
   }
   
-  /*--------------------------------------------------------------
-  # General Styling & Shared Classes
-  --------------------------------------------------------------*/
+
   body {
     color: var(--default-color);
     background-color: var(--background-color);
@@ -585,38 +583,6 @@
     }
   }
   
-  /*--------------------------------------------------------------
-  # Scroll Top Button
-  --------------------------------------------------------------*/
-  .scroll-top {
-    position: fixed;
-    /* visibility: hidden; */
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 99999;
-    background-color: var(--accent-color);
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    transition: all 0.4s;
-  }
-  
-  .scroll-top i {
-    font-size: 24px;
-    color: var(--contrast-color);
-    line-height: 0;
-  }
-  
-  .scroll-top:hover {
-    background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-    color: var(--contrast-color);
-  }
-  
-  .scroll-top.active {
-    visibility: visible;
-    opacity: 1;
-  }
   
   
   @media screen and (max-width: 768px) {
@@ -715,9 +681,7 @@
     padding-bottom: 2px;
   }
   
-  /*--------------------------------------------------------------
-  # Slider Section
-  --------------------------------------------------------------*/
+
   .slider {
     background-color: transparent;
   }
@@ -990,7 +954,14 @@
   
   
   
-  
-  
-  
-  
+  .topic-button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    box-shadow: none; /* Remove shadow */
+}
+
+/* Background after clicking (when expanded) */
+.topic-button:not(.collapsed) {
+    background-color: #28a745 !important; /* Green */
+    color: white;
+}
