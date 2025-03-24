@@ -66,3 +66,5 @@ $this->view('includes/head',$data); ?>
 </main>
 
 <?php $this->view('includes/footer', $data); ?>
+<?php $this->view('includes/scriptfiles',$data) ?>
+

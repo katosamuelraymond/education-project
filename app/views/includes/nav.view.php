@@ -1,4 +1,6 @@
  <nav id="navmenu" class="navmenu">
+
+ 
     <ul>
         <li><a href="<?=ROOT?>" class="active">Home</a></li>
        
@@ -33,6 +35,7 @@
         </li>
       
     </ul>
+    
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav> 
 

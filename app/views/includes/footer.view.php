@@ -59,42 +59,20 @@
         </div>
     </div>
 
-    <!-- Full-Width Separator Line -->
     <div class="full-width-line"></div>
 
-    <!-- Copyright Section -->
+ 
     <div class="text-center py-3 fs-5 copyright-bg">
         <p class="mb-0">© <?= date('Y') ?> <strong class="sitename"><?=APPNAME?></strong>. All Rights Reserved.</p>
     </div>
 
-    <!-- Scroll to Top -->
+  
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
 
-    <!-- Preloader -->
+
     <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="<?=ROOT?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
    
-    <script src="<?=ROOT?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Main JS File -->
-    <script src="<?=ROOT?>/assets/js/main.js"></script>
-
-    <style>
-        /* Full-width separator line */
-        .full-width-line {
-            width: 100%;
-            height: 2px;
-            background-color: rgba(255, 255, 255, 0.2);
-            margin-top: 20px;
-        }
-
-        /* Copyright Section Background */
-        .copyright-bg {
-            background-color: rgba(0, 0, 0, 0.85);
-        }
-    </style>
-</footer>

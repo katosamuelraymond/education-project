@@ -10,7 +10,7 @@
         <?php endif; ?>
 
         <div class="d-flex justify-content-between">
-            <!-- Carousel Section (50% width) -->
+           
             <div class="trainer-carousel" style="flex: 1; width: 50%; padding-right: 20px;">
                 <div id="trainerCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -91,3 +91,5 @@
 </main>
 
 <?php $this->view('includes/footer', $data); ?>
+<?php $this->view('includes/scriptfiles',$data) ?>
+

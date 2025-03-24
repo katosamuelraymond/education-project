@@ -17,12 +17,10 @@
     --nav-color: #6a6a6a;  
     --nav-hover-color: #0c30ff; 
     --nav-mobile-background-color: #ffffff; 
-    --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-    --nav-dropdown-color: #351ff5; /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #000000; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-background-color: #ffffff; 
+    --nav-dropdown-color: #351ff5; 
+    --nav-dropdown-hover-color: #000000;
   }
-  
-  /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
   
   .light-background {
     --background-color: #f9f9f9;
@@ -70,57 +68,7 @@
     font-family: var(--heading-font);
   }
   
-  /* PHP Email Form Messages
-  ------------------------------*/
-  .php-email-form .error-message {
-    display: none;
-    background: #df1529;
-    color: #ffffff;
-    text-align: left;
-    padding: 15px;
-    margin-bottom: 24px;
-    font-weight: 600;
-  }
-  
-  .php-email-form .sent-message {
-    display: none;
-    color: #ffffff;
-    background: #059652;
-    text-align: center;
-    padding: 15px;
-    margin-bottom: 24px;
-    font-weight: 600;
-  }
-  
-  .php-email-form .loading {
-    display: none;
-    background: var(--surface-color);
-    text-align: center;
-    padding: 15px;
-    margin-bottom: 24px;
-  }
-  
-  .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid var(--accent-color);
-    border-top-color: var(--surface-color);
-    animation: php-email-form-loading 1s linear infinite;
-  }
-  
-  @keyframes php-email-form-loading {
-    0% {
-      transform: rotate(0deg);
-    }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+ 
   
   /*--------------------------------------------------------------
   # Global Header
@@ -425,7 +373,19 @@
       display: block;
     }
   }
+
   
+  .full-width-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+}
+
+/* Copyright Section Background */
+.copyright-bg {
+    background-color: rgba(0, 0, 0, 0.85);
+}
   /*--------------------------------------------------------------
   # Global Footer
   --------------------------------------------------------------*/
@@ -954,14 +914,7 @@
   
   
   
-  .topic-button {
-    background-color: #007bff; /* Blue */
-    color: white;
-    box-shadow: none; /* Remove shadow */
-}
-
-/* Background after clicking (when expanded) */
-.topic-button:not(.collapsed) {
-    background-color: #28a745 !important; /* Green */
-    color: white;
+  .accordion-button:focus {
+    box-shadow: none;
+    outline: none;
 }

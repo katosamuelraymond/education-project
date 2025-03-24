@@ -51,7 +51,7 @@ $this->view('includes/head',$data);
                 </div>
             </div>
 
-            <!-- Slide 2: Best A-Level & O-Level Courses -->
+         
             <div class="swiper-slide"
                 style="background-image: url('<?=ROOT?>/assets/img/pexels-pixabay-163064.jpg');">
                 <div class="content">
@@ -60,28 +60,28 @@ $this->view('includes/head',$data);
                 </div>
             </div>
 
-            <!-- Slide 3: Campus & Professional Skills -->
+   
            
             <div class="swiper-slide d-flex align-items-center position-relative" 
     style="background-image: url('<?=ROOT?>/assets/img/pexels-emily-ranquist-493228-1205651.jpg');">
     
-    <!-- Left Side (Your Original Content) -->
+  
     <div class="content">
         <h2><a href="single-post">Campus & Professional Skills Training</a></h2>
         <p>Get ready for the job market with campus courses in IT, Business, and more. Develop skills that employers value.</p>
     </div>
 
-    <!-- Right Side Encouraging Words -->
-    <div class="position-absolute top-0 end-0 bg-secondary p-4 rounded shadow-lg text-center" 
-        style="max-width: 350px; margin: 20px;">
-        <h3 class="text-dark">Keep Learning, Keep Growing!</h3>
-        <p class="text-light">Education is the key to unlocking opportunities. Stay curious, stay motivated, and achieve your goals.</p>
-    </div>
+  
+    <div class="position-absolute top-0 end-0 bg-secondary p-4 rounded shadow-lg text-center d-none d-xl-block" 
+    style="max-width: 350px; margin: 20px;">
+    <h3 class="text-dark">Keep Learning, Keep Growing!</h3>
+    <p class="text-light">Education is the key to unlocking opportunities. Stay curious, stay motivated, and achieve your goals.</p>
+</div>
+
 
 </div>
 
 
-            <!-- Slide 4: Learn Anytime, Anywhere -->
             <div class="swiper-slide"
                 style="background-image: url('<?=ROOT?>/assets/img/learning-slide-4.jpg');">
                 <div class="content">
@@ -104,12 +104,10 @@ $this->view('includes/head',$data);
 
 
 
-<div class="container">
+<div class="container my-2">
 
-<!-- Bootstrap 5 Accordion for Academic Content -->
 <div class="accordion" id="academicAccordion">
 
-    <!-- Course Topic 1 -->
     <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" 
@@ -124,8 +122,8 @@ $this->view('includes/head',$data);
         </div>
     </div>
 
-    <!-- Course Topic 2 -->
-    <div class="accordion-item mt-2" data-aos="fade-up" data-aos-delay="400">
+   
+    <div class="accordion-item mt-1" data-aos="fade-up" data-aos-delay="400">
         <h2 class="accordion-header">
             <button class="accordion-button collapsed text-white bg-primary" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#topic2" aria-expanded="false" aria-controls="topic2">
@@ -237,3 +235,4 @@ $this->view('includes/head',$data);
 </main>
 
 <?php $this->view('includes/footer',$data) ?>
+<?php $this->view('includes/scriptfiles',$data) ?>
