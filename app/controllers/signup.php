@@ -7,6 +7,9 @@ class Signup extends Controller
     public function index()
     {
         $data['errors'] = [];
+
+        // $db= new Database ();
+        // $db->create_tables();
         $user = new User();
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -17,6 +20,7 @@ class Signup extends Controller
                 $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
 				
 			$_POST['date'] = date("Y-m-d H:i:s");
+			$_POST['role'] = "user";
 
                 // Remove the retype_password field before saving
                 unset($_POST['retype_password']);

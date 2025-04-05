@@ -9,7 +9,7 @@ class Database
 	
 	private function connect()
 	{
-		$str = DBDRIVER.":hostname=".DBHOST.";dbname=".DBNAME;
+		$str = DBDRIVER . ":host=" . DBHOST . "; port=3306;dbname=" . DBNAME;
 		return new PDO($str,DBUSER,DBPASS);
 
 	}

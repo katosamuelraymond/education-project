@@ -1,5 +1,5 @@
 <?php
-// Prevent redefining constants
+
 if (!defined('APPNAME')) {
     define('APPNAME', 'Incredible Education');
 }
@@ -7,26 +7,30 @@ if (!defined('APPDESC')) {
     define('APPDESC', 'Free and paid courses');
 }
 
-if (!defined('DBHOST')) {
+
+if ($_SERVER['SERVER_NAME'] == 'localhost') {
+    
     define('DBHOST', 'localhost');
-}
-if (!defined('DBNAME')) {
-    define('DBNAME', 'incredible education');
-}
-if (!defined('DBUSER')) {
+    define('DBNAME', 'incredible education');   
     define('DBUSER', 'root');
-}
-if (!defined('DBPASS')) {
     define('DBPASS', '');
+} else {
+    
+    define('DBHOST', 'sql303.byethost3.com');
+    define('DBNAME', 'b3_38677495_incredibleeducation');
+    define('DBUSER', 'b3_38677495');
+    define('DBPASS', '0752084847sam');
 }
+
 if (!defined('DBDRIVER')) {
     define('DBDRIVER', 'mysql');
 }
 
+
 if (!defined('ROOT')) {
     if ($_SERVER['SERVER_NAME'] == 'localhost') {
-        define('ROOT', 'http://localhost/education project/public');
+        define('ROOT', rtrim('http://localhost/education project/', '/'));
     } else {
-        define('ROOT', 'http://yourwebsite.com');
+        define('ROOT', rtrim('http://samuelray.byethost3.com/', '/'));
     }
 }

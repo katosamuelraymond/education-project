@@ -7,6 +7,7 @@
 
     
         <div class="ms-auto">
+            <?php ?>
             <a class="btn btn-primary" href="<?=ROOT?>/login">Login</a>
         </div>
     </div>

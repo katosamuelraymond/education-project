@@ -14,7 +14,7 @@ $this->view('includes/head',$data); ?>
 <main>
     <div class="container">
 
-      <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+      <section class="section register min-vh-100  d-flex flex-column align-items-center justify-content-center py-4">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
@@ -55,12 +55,12 @@ $this->view('includes/head',$data); ?>
 
                     <div class="col-12">
                       <label for="yourEmail" class="form-label">Your Email</label>
-                      <input value="" type="email" name="email" class="form-control " id="yourEmail" required>
+                      <input value="<?= htmlspecialchars(set_value('email'));?>" type="email" name="email" class="form-control  <?= !empty($errors['email']) ? "border-danger": ""; ?>" id="yourEmail" required>
                       <div class="invalid-feedback">Please enter a valid Email adddress!</div>
                       
-                      <?php // if(!empty($errors['email'])):?>
-                        <small class="text-danger"><? //=$errors['email']?></small>
-                      <?php// endif;?>
+                      <?php  if(!empty($errors['email'])):?>
+                        <small class="text-danger"><?= $errors['email'];?></small>
+                      <?php endif;?>
 
                     </div>
  
