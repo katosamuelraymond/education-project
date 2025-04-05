@@ -57,8 +57,13 @@
       });
     }
   
+    
     window.addEventListener("load", initSwiper);
-
+    document.querySelector('form').addEventListener('submit', function (e) {
+      // Prevent the form from submitting
+      e.preventDefault();
   
-  
+     
+  });
+   
   })();

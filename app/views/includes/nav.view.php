@@ -1,7 +1,15 @@
  <nav id="navmenu" class="navmenu">
-
  
-    <ul>
+        <ul>
+
+        <div class="search-bar">
+          <form class="search-form d-flex align-items-center" method="POST" action="#">
+            <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+            <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+
+
         <li><a href="<?=ROOT?>" class="active">Home</a></li>
        
         <li><a href="about">About</a></li>
@@ -28,15 +36,24 @@
           </li>
             </ul>
                 </li>
-                <li><a href="<?= ROOT ?>/resources">Resources</a></li>
-                <li><a href="<?= ROOT ?>/blog">blog</a></li>
-                <li><a href="<?= ROOT ?>/forum">Forum</a></li>
+               
             </ul>
         </li>
       
     </ul>
-    
+
     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav> 
 
 
+
+
+
+
+
+      
+    
+       
+    
+         
+     

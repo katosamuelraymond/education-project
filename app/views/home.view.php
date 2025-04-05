@@ -104,6 +104,73 @@ $this->view('includes/head',$data);
 
 
 
+<style>
+    .card-hover {
+        transition: all 0.3s ease;
+        border-left: 4px solid transparent;
+    }
+
+    .card-hover:hover {
+        border-left: 4px solid #0d6efd;
+        background-color: #f8f9fa; 
+    }
+</style>
+<div class="container-fluid mb-4 bg-light ">
+<div class="col-12 col-md-6 mt-5 ml-md-5 p-5  ">
+
+    <a href="interactive-learning.php" class="text-decoration-none text-dark">
+        <div class="card card-hover mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Interactive Learning Experience</h5>
+                <p class="card-text">Master concepts through hands-on projects, interactive quizzes, and real-time feedback powered by smart technology.</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="certification-prep.php" class="text-decoration-none text-dark">
+        <div class="card card-hover mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Career-Boosting Certifications</h5>
+                <p class="card-text">Prepare for globally recognized exams with practical simulations and earn certificates that boost your CV and skills profile.</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="analytics.php" class="text-decoration-none text-dark">
+        <div class="card card-hover mb-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Progress Tracking & Analytics
+                    <span class="badge bg-primary">Enterprise Plan</span>
+                </h5>
+                <p class="card-text">Monitor learning outcomes with intelligent dashboards—ideal for schools, businesses, and education partners.</p>
+            </div>
+        </div>
+    </a>
+
+    <a href="custom-learning-paths.php" class="text-decoration-none text-dark">
+        <div class="card card-hover mb-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    Personalized Learning Paths
+                    <span class="badge bg-primary">Enterprise Plan</span>
+                </h5>
+                <p class="card-text">Design unique journeys for your learners by customizing modules, adding your own content, and aligning with your curriculum.</p>
+            </div>
+        </div>
+    </a>
+
+</div>
+</div>
+
+       
+
+
+
+
+
+
+
 <div class="container my-2">
 
 <div class="accordion" id="academicAccordion">
@@ -130,7 +197,7 @@ $this->view('includes/head',$data);
                 <i class="bi bi-journal-bookmark me-2"></i> Effective Study Techniques for Academic Success
             </button>
         </h2>
-        <div id="topic2" class="accordion-collapse collapse" data-bs-parent="#academicAccordion">
+        <div id="topic2" class="accordion-collapse collapse" data-bs-parent="#academicAccordion2">
             <div class="accordion-body">
                 Learn powerful study methods like **active recall, the Feynman technique, and spaced repetition** to retain information better and improve exam performance.
             </div>
@@ -161,7 +228,7 @@ $this->view('includes/head',$data);
     <div class="row g-5">
         <div class="col-lg-4">
             <div class="course-list lg">
-                <a href="course-details"><img src="<?=ROOT?>/assets/img/course-math.jpg" alt="" class="img-fluid"></a>
+                <a href="course-details"><img src="<?=ROOT?>\assets\img\pexels-emily-ranquist-493228-1205651.jpg" alt="" class="img-fluid"></a>
                 <div class="course-meta"><span class="category">O Level</span> <span class="mx-1">•</span>
                     <span>Updated 2025</span>
                 </div>
@@ -169,10 +236,12 @@ $this->view('includes/head',$data);
                 <p class="mb-4 d-block">Comprehensive guide to O Level Mathematics with step-by-step solutions.</p>
 
                 <div class="d-flex align-items-center instructor">
-                    <div class="photo"><img src="<?=ROOT?>/assets/img/instructor-math.jpg" alt="" class="img-fluid"></div>
-                    <div class="name">
-                        <h3 class="m-0 p-0">Dr. Jane Doe</h3>
+                    <div class="photo">
+                    <img src="<?=ROOT?>/assets/img/pexels-emily-ranquist-493228-1205651.jpg" alt="" class="img-fluid">
                     </div>
+                    <!-- <div class="name">
+                        <h3 class="m-0 p-0">Dr. Jane Doe</h3>
+                    </div> -->
                 </div>
             </div>
 
